@@ -1,4 +1,4 @@
-console.log("Hello world!");
+console.log("Hello world! Ten kod jest już w repozytorium Git.");
 let przycisk = document.querySelector(".btnHeader");
 let przyciskHeadera = document.getElementById("btnHeader");
 let przyciskKoloru = document.getElementById("btnColor");
