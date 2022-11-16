@@ -1,0 +1,96 @@
+.form__labelText{
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__field{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.form__field--color{
+    padding: 0;
+    border: none;
+}
+.form__input{
+    width: 100%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.form__input:hover{
+    background-color: rgb(7, 175, 170);
+
+}
+.form__input:active{
+    background-color: rgb(6, 170, 155);
+    
+}
+.form__fieldset{
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+}
+.form__legend{
+    background-color: teal;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+.form__field:required{
+    border-color:#777;
+}
+.form__field:invalid{
+    background-color: lightsalmon;
+}
+.form__field:read-only{
+    background-color:rgb(218, 181, 181);
+}
+.form__field:disabled{
+    background-color:rgb(187, 217, 243);
+}
+
+.js-formBmi{
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;    
+}
+.js-weight{
+    background-color: crimson;
+    border-radius: 7px;
+
+}
+.js-height{
+    background-color: crimson;
+    border-radius: 7px;
+}
+.js-bmi{
+    border: solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+.js-kalkulator{
+    background-color: rgb(250, 252, 145);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.js-kurs{
+background-color: cadetblue;
+}
+.js-wartosc{
+background-color: rgb(240, 206, 213);
+}
+.js-ilosc{
+background-color: cadetblue;
+}

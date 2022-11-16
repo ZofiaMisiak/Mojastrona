@@ -1,0 +1,23 @@
+console.log("Cześć");
+
+let przycisk = document.querySelector(".btnHeader");
+let przyciskHeadera=document.getElementById("btnHeader");
+let przyciskKoloru=document.getElementById("btnColor");
+let parTest=document.getElementById("paragrafTestowy");
+let buttons=document.getElementsByClassName("button");
+
+przyciskHeadera.addEventListener("click", () =>{
+    naglowek = document.querySelector(".naglowek");
+    naglowek.remove();
+    alert("bum");
+
+});
+
+console.log(przycisk);//uwagi
+
+przyciskKoloru.addEventListener("click", () =>{
+    alert("bum1");
+    parTest.classList.toggle("dark");
+    button.classList.toggle("buttonDark");
+    buttons.classList.toggle("buttonDark");
+});
