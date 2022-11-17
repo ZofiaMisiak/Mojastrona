@@ -29,10 +29,10 @@ html{
 }
 p {
    font-family: "Arial", sans-serif;
-   color: darkgreen;
+   
 }
 /*komentarz*/
-.element {
+.element1 {
 width: 300px;
 background-color: rgba(208, 235, 235, 0.753);
 max-width: 500px;
