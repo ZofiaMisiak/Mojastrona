@@ -161,3 +161,22 @@ overflow:x;
 .formularz2{
    color: crimson;
 }
+.flex{
+   border: 10px solid black;
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+}
+.flex__item{
+   padding:20px;
+   background: teal;
+   color: #eee;
+   margin: 10px;
+   flex: 0 1 auto;
+}
+.flex__item--flex__item--first{
+   flex-grow: 1;
+}
+.flex__item--flex__item--last{
+   flex-grow: 1;
+}
